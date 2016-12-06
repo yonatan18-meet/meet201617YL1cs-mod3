@@ -1,8 +1,8 @@
 #This script performs some simple tests on the UserAccount class.
-import UserAccount
+from UserAccount import UserAccount
 
 #Three things are missing from the line below - fill them in
-my_user=UserAcount(my_username, my_password, my_secret)
+my_user=UserAccount(my_username, my_password, my_secret)
 
 my_username="yonatan18-meet"
 my_password="meetyear18"
